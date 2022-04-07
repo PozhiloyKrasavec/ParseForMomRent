@@ -15,10 +15,6 @@ module com.example.mycourse {
 
     opens com.example.mycourse to javafx.fxml;
     exports com.example.mycourse;
-    exports com.example.mycourse.Modal.threads;
-    opens com.example.mycourse.Modal.threads to javafx.fxml;
-    exports com.example.mycourse.Modal.parsers;
-    opens com.example.mycourse.Modal.parsers to javafx.fxml;
     exports com.example.mycourse.Modal;
     opens com.example.mycourse.Modal to javafx.fxml;
     exports com.example.mycourse.Modal.threads.ForBaby;
